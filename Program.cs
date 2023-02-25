@@ -12,9 +12,9 @@ var builder = WebApplication.CreateBuilder(
         EnvironmentName = Environments.Staging,
 
         // Hier wird das Wurzelverzeichnis für den statischen Content definiert (html, css, scripte)
-        WebRootPath = "wwwroot"
+        WebRootPath = "wwwroot"  
     }
-);
+); 
 
 // Alle Dienste konfigurieren, welche die Anwendung nutzt
 
