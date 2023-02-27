@@ -10,5 +10,8 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content> -->
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="jQuery" Version="3.6.3" />
+  </ItemGroup>
 
 </Project>

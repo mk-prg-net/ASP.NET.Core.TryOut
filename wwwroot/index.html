@@ -6,19 +6,20 @@
 
     <title>🛸 SPADemo</title>
 
-    <link rel="stylesheet" href="{☀}/mk-prg-net/mk-prg-net.body.css" />
-    <link rel="stylesheet" href="{☀}/mk-prg-net/mk-prg-net.buttons.css" />
-    <link rel="stylesheet" href="{☀}/mk-prg-net/mk-prg-net.form-control.css" />
-    <link rel="stylesheet" href="{☀}/mk-prg-net/mk-prg-net.glyphs.css" />
-    <link rel="stylesheet" href="{☀}/mk-prg-net/mk-prg-net.header.css" />
-    <link rel="stylesheet" href="{☀}/mk-prg-net/mk-prg-net.links.css" />
-    <link rel="stylesheet" href="{☀}/mk-prg-net/mk-prg-net.lists.css" />
-    <link rel="stylesheet" href="{☀}/mk-prg-net/mk-prg-net.nav.tiles.css" />
-    <link rel="stylesheet" href="{☀}/mk-prg-net/mk-prg-net.table.css" />
-    <link rel="stylesheet" href="{☀}/mk-prg-net/mk-prg-net.toc.css" />
-    <link rel="stylesheet" href="{☀}/mk-prg-net/mk-prg-net.typografy.css" />
+    <link rel="stylesheet" href="{☀}/css/mk-prg-net/mk-prg-net.body.css" />
+    <link rel="stylesheet" href="{☀}/css/mk-prg-net/mk-prg-net.buttons.css" />
+    <link rel="stylesheet" href="{☀}/css/mk-prg-net/mk-prg-net.form-control.css" />
+    <link rel="stylesheet" href="{☀}/css/mk-prg-net/mk-prg-net.glyphs.css" />
+    <link rel="stylesheet" href="{☀}/css/mk-prg-net/mk-prg-net.header.css" />
+    <link rel="stylesheet" href="{☀}/css/mk-prg-net/mk-prg-net.links.css" />
+    <link rel="stylesheet" href="{☀}/css/mk-prg-net/mk-prg-net.lists.css" />
+    <link rel="stylesheet" href="{☀}/css/mk-prg-net/mk-prg-net.nav.tiles.css" />
+    <link rel="stylesheet" href="{☀}/css/mk-prg-net/mk-prg-net.table.css" />
+    <link rel="stylesheet" href="{☀}/css/mk-prg-net/mk-prg-net.toc.css" />
+    <link rel="stylesheet" href="{☀}/css/mk-prg-net/mk-prg-net.typografy.css" />
 
-    <script src="{☀}/wwwroot/Scripts/require.js" data-main="{☀}/wwwroot/Scripts/index/index_app.js"></script>
+    <script src="{☀}/lib/jquery.js" <script src="{☀}/lib/vue.global.js">
+    </script>
 
 </head>
 
@@ -34,12 +35,31 @@
         </nav>
     </header>
     <section id="main_desktop">
+        <div id="jqTxt">
+
+        </div>
+
         <!-- Content-->
+        <div id="app">{{message}}</div>
 
     </section>
     <footer id="main_status">
         <!-- Statusmeldungen und technische Details werden hier präsentiert -->
     </footer>
 </body>
+
+<script>
+    const {
+        createApp
+    } = Vue
+
+    createApp({
+        data() {
+            return {
+                message: 'Hello Vue!'
+            }
+        }
+    }).mount('#app')
+</script>
 
 </html>

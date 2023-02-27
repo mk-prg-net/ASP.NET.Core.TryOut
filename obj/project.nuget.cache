@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/392OTz3jhiGUzvgYmxUtleBx6GtDyH9qTPmxOvAepIRfDixziljlw9sII6bD7ZJfDyIblMCH0fcdaREYVlXmA==",
+  "dgSpecHash": "5Weo94U56i4Z8qWV2vWPEs4134CPS/s/Fybv9JiX5oVPWlEOL6SvBevd1K9LGfOmmJb7OOL4zIbqRrUtLyXw1g==",
   "success": true,
   "projectFilePath": "C:\\Users\\marti_000\\source\\repos\\NET7\\TryOut\\TryOut.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\marti_000\\.nuget\\packages\\jquery\\3.6.3\\jquery.3.6.3.nupkg.sha512"
+  ],
   "logs": []
 }

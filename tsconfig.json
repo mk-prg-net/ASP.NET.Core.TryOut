@@ -1,0 +1,28 @@
+{
+    "baseUrl": "./wwwroot/",
+    "path": {
+        //"qunit": "Scripts/qunit-2.19.3",
+        "vue": "lib/vue.global.js",
+        "VueCompilerDom": "lib/VueCompilerDom.js",
+        "jquery": "lib/jquery.js"
+    },
+    "compilerOptions": {
+        "noImplicitAny": false,
+        "noEmitOnError": true,
+        "removeComments": false,
+        "sourceMap": true,
+        "target": "es6",
+        "outDir": "wwwroot/js/tsJs",
+        "module": "AMD",
+        "moduleResolution": "node"
+    },
+    "include": [
+        "./wwwroot/ts/**/*",
+        "./wwwroot/typings/**/*"
+    ],
+    //"Scripts/tsJs/DocumentReady.js", "Scripts/tsJs/Tests.js"  ],
+    "exclude": [
+        "node_modules"
+    ],
+    "compileOnSave": true
+}
